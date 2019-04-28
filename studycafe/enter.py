@@ -1,3 +1,4 @@
-def greeter(name :str)->str:
+def greeter(name :str, age :int)->str:
     """greeter function to New Comer"""
-    return f'Hello,{name} Welcome to studycafe!'
+    return f'Hello,{name}. You are {age}.  Welcome to studycafe!'
+
