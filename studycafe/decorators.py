@@ -1,3 +1,5 @@
+import functools
+
 def debug(func):
     """Print the function signature and return value"""
     @functools.wraps(func)
